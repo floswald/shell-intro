@@ -2,12 +2,11 @@
 title: Setup
 ---
 
-Setup instructions live in this document. Please specify the tools and the data
-sets the Learner needs to have installed.
+You need to have a working Unix Shell (or something that mimicks it) installed for this lesson. We will be using a standard BASH shell.
 
 ## Data Sets
 
-Download the [data zip file](data/data.zip) and unzip it to your Desktop
+Download the [data zip file](data/data.zip) and unzip it to your Dektop.
 
 ## Software Setup
 
@@ -15,18 +14,15 @@ Download the [data zip file](data/data.zip) and unzip it to your Desktop
 
 ### Details
 
-Setup for different systems can be presented in dropdown menus via a `solution`
-tag. They will join to this discussion block, so you can give a general overview
-of the software used in this lesson here and fill out the individual operating
-systems (and potentially add more, e.g. online setup) in the solutions blocks.
-
 :::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::: solution
 
 ### Windows
 
-Use PuTTY
+1. Install the [`GitForWindows](https://gitforwindows.org/) app. 
+2. Make sure you have `R` installed before the next step! If not: [install it](https://www.r-project.org/)! 😀
+2. Download the software carpentry setup script for windows from [here (`SWCarpentryInstaller.exe)](https://github.com/swcarpentry/windows-installer/releases/tag/v0.3), and execute it. It will setup some useful programs to work in the BASH console for you.
 
 :::::::::::::::::::::::::
 
@@ -34,7 +30,13 @@ Use PuTTY
 
 ### MacOS
 
-Use Terminal.app
+You should be all set. To make sure we have really everything we need, open `Terminal.app` (in &Applications > Utilities* or do `Cmd + Space` to get spotlight search and type *terminal*). Then paste this code and hit enter:
+
+```
+xcode-select --install
+```
+
+click on *install* (don’t click on *get Xcode*)
 
 :::::::::::::::::::::::::
 
@@ -43,7 +45,17 @@ Use Terminal.app
 
 ### Linux
 
-Use Terminal
+All set. Maybe open a terminal and type
+
+```
+git --version
+```
+
+if that throws an error, install it with your package manager, e.g.
+
+```
+sudo apt install git-all
+```
 
 :::::::::::::::::::::::::
 
