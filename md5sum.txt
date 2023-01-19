@@ -9,3 +9,4 @@
 "instructors/instructor-notes.md" "60b93493cf1da06dfd63255d73854461" "site/built/instructor-notes.md" "2023-01-19"
 "learners/setup.md" "8c93b6ec2977930cce8875af49528370" "site/built/setup.md" "2023-01-19"
 "profiles/learner-profiles.md" "60b93493cf1da06dfd63255d73854461" "site/built/learner-profiles.md" "2023-01-19"
+"renv/profiles/lesson-requirements/renv.lock" "14ff696a6d97c84128a718dfd9cf5e7b" "site/built/renv.lock" "2023-01-19"
